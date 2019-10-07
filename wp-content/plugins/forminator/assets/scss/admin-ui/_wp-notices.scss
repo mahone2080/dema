@@ -1,0 +1,48 @@
+@include body-class(true) {
+
+	.fui-wordpress-notice {
+		margin: 0 0 $sui-gutter-md;
+		box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+
+		p {
+			margin: .5em 0;
+			padding: 2px;
+			color: #72777C;
+			font-size: 13px;
+			font-weight: 500;
+			line-height: 1.5;
+			font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+
+			strong {
+				font-weight: 700;
+			}
+		}
+
+		a.button,
+		button.button {
+			margin-right: 15px;
+
+			&.button-primary {
+				box-shadow: 0 1px 0 #006799;
+				color: $white;
+				text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+
+				&:active,
+				&.active:hover {
+					background: #0073AA;
+					box-shadow: inset 0 2px 0 #006799;
+				}
+			}
+		}
+
+		.dismiss {
+			color: #555555;
+			font-size: 14px;
+			font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+		}
+
+		@include media(min-width, md) {
+			margin: 0 0 $sui-gutter;
+		}
+	}
+}

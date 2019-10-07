@@ -1,0 +1,26 @@
+/*
+* Frontend Style v2.0.6
+*/
+#smart-ajax-loader {
+    width: 300px;
+}
+.show_no_posts {
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(100% 100% 90deg, #e4e3e3, #f1f1f1) repeat scroll 0 0 !important;
+    border-radius: 8px !important;
+    box-shadow: 1px 1px 1px #999 !important;
+    color: #444 !important;
+    font-size: 15px;
+     margin: auto auto 26px;
+    padding: 4px 0 !important;
+    text-align: center;
+    width: 406px;
+}
+.aps-field > img {
+    height: 70px;
+    width: 83px;
+}
+img.post_featured{
+     height: 360px !important;
+     /*object-fit: cover;*/
+     width: 100%;
+}

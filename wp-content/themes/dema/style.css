@@ -1,0 +1,11 @@
+/*
+Theme Name: 德玛
+Author: aipeng
+QQ: 781728378
+Description: 德玛企业站
+Version: 1.0
+*/
+
+.header-right ul>li:nth-child(1) a {
+    color: #08478a;
+}
