@@ -50,21 +50,8 @@
                     </a>
                 </div>
             </div>
-            <div class="header-right">
-                <div class="icon">
-                    <span class="iconfont icon-ego-menu"></span>
-                    <span class="iconfont icon-guanbi"></span>
-                </div>
-                <?php wp_nav_menu(array(
-                    'theme_location' => 'primary',
-                    'menu_class' => 'ooo',
-                    'container' => 'false',
-//                    'container_class' => 'second-level',
-//                    'items_wrap'      => '<ul id="%1$s" class="">%3$s</ul>',
-                    'walker' => new dema_Nav_Walker,
-                ));
-                ?>
-            </div>
+
+            <?php if(get_query_var('lang')=='en'){show_post(608);}else{show_post(601);}?>
             <?php //                get_sidebar();            ?>
             <div class="switch">
                 <ul>
