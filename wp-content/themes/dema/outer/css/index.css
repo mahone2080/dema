@@ -101,7 +101,7 @@ body {
 }
 
 .second-level li {
-    border-bottom: 1px solid #e6e6e6;
+    border-bottom: 0.5px solid #e6e6e6;
 }
 
 .second-level li a {
@@ -125,7 +125,7 @@ body {
     position: absolute;
     overflow: hidden;
     top: 16px;
-    left: -35px;
+    left: -45px;
     right: 0;
     height: 0;
     transition: all 0.5s;
@@ -133,15 +133,30 @@ body {
     opacity: 0;
 }
 
+/* .header-right .ooo li:hover .second-level {
+    height: auto;
+    opacity: 1;
+} */
+
+.header-right .ooo li:nth-child(2):hover .second-level {
+    height: 186px;
+    opacity: 1;
+}
+
+.header-right .ooo .t_a:hover .second-level {
+    height: 302px;
+    opacity: 1;
+}
+
 .header-right .ooo li:hover .second-level {
-    height: 188px;
+    height: 302px;
     opacity: 1;
 }
 
 
-.header-right .ooo .t_a:hover .second-level {
+/* .header-right .ooo .t_a:hover .second-level {
     height: 304px;
-}
+} */
 
 .header-right .ooo .t_b:hover .second-level {
     height: 304px !important;
@@ -241,6 +256,7 @@ body {
     font-size: 14px;
     display: block;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .bb {
@@ -625,7 +641,7 @@ body {
     background-attachment: fixed;
     background-repeat: repeat-x;
     background-size: cover;
-    background-position: 0 -80px;
+    /* background-position: 0 -80px; */
 }
 
 .main-3 .title {
@@ -713,7 +729,7 @@ body {
     position: absolute;
     top: 21px;
     left: -37px;
-    width: 140px;
+    width: 200px;
     background: #fff;
     /* padding: 38px 0 0 0; */
     /* display: none; */
@@ -794,14 +810,14 @@ body {
     width: 100%;
 }
 
-.main-5 .content>p {
+.main-5 .smart_content_wrapper {
     font-size: 16px;
     color: #404040;
-    padding: 0 50px;
     margin: 0 0 42px 0;
     line-height: 25px;
     text-indent: 2em;
 }
+
 
 .main-5 .text-1 {
     width: 400px;
@@ -833,8 +849,8 @@ body {
     padding: 85px 0 0 0;
 }
 
-.main-5 .photo+p {
-    padding: 39px 50px 60px;
+.main-5 .wp-block-image+p {
+    padding: 39px 0 60px;
 }
 
 .main-6 {
@@ -1156,7 +1172,7 @@ body {
 .list .item p:nth-child(3) {
     border-bottom: 2px solid #3979af;
     position: relative;
-    bottom: -24px;
+    bottom: -23px;
     left: 0;
     transition: all 0.5s;
     opacity: 0;
@@ -1233,7 +1249,7 @@ body {
     max-width: 100%;
 }
 
-.main-12 .content .photo+p {
+.main-12 .content .wp-block-image+p {
     padding: 40px 0;
 }
 
@@ -1364,7 +1380,7 @@ body {
 .main-15 .item .s {
     border-bottom: 2px solid #3979af;
     position: relative;
-    bottom: -56px;
+    bottom: -58px;
     left: 0;
     transition: all 0.5s;
     opacity: 0;
@@ -1899,7 +1915,7 @@ body {
 .main-20 .item .s {
     border-bottom: 2px solid #3979af;
     position: relative;
-    bottom: -6px;
+    bottom: 0px;
     left: 0;
     transition: all 0.5s;
     opacity: 0;
@@ -2266,6 +2282,7 @@ body {
     width: 100%;
     z-index: 1;
     opacity: 1;
+    text-transform: uppercase;
 }
 
 .roll2 {
@@ -2792,6 +2809,7 @@ body {
     line-height: 23px;
     color: #000;
     text-indent: 2em;
+    font-size: 16px;
 }
 
 .main-36 p:last-child {
@@ -2900,7 +2918,7 @@ body {
 .main-40 .list .s {
     border-bottom: 2px solid #3979af;
     position: relative;
-    bottom: -51px;
+    bottom: -48px;
     left: 0;
     transition: all 0.5s;
     opacity: 0;
@@ -3016,7 +3034,7 @@ body {
 .main-43 .list .s {
     border-bottom: 2px solid #3979af;
     position: relative;
-    bottom: -50px;
+    bottom: -47px;
     left: 0;
     transition: all 0.5s;
     opacity: 0;
@@ -3044,6 +3062,7 @@ body {
 .main-44 .list {
     border: 1px solid #e6e6e6;
     position: relative;
+    margin: 0 5px;
 }
 
 .main-44 .top {
@@ -3158,7 +3177,7 @@ body {
 .main-46 .list .s {
     border-bottom: 2px solid #3979af;
     position: relative;
-    bottom: -51px;
+    bottom: -47px;
     left: 0;
     transition: all 0.5s;
     opacity: 0;
@@ -3249,7 +3268,7 @@ body {
 .main-48 .list .s {
     border-bottom: 2px solid #3979af;
     position: relative;
-    bottom: -104px;
+    bottom: -101px;
     left: 0;
     transition: all 0.5s;
     opacity: 0;
@@ -3501,7 +3520,7 @@ body {
 .main-52 .list .s {
     border-bottom: 2px solid #3979af;
     position: relative;
-    bottom: -83px;
+    bottom: -80px;
     left: 0;
     transition: all 0.5s;
     opacity: 0;
@@ -3771,7 +3790,7 @@ body {
 .main-56 .list .s {
     border-bottom: 2px solid #3979af;
     position: relative;
-    bottom: -84px;
+    bottom: -82px;
     left: 0;
     transition: all 0.5s;
     opacity: 0;
@@ -4032,7 +4051,7 @@ body {
 .main-68 .list .s {
     border-bottom: 2px solid #3979af;
     position: relative;
-    bottom: -100px;
+    bottom: -103px;
     left: 0;
     transition: all 0.5s;
     opacity: 0;
@@ -4041,7 +4060,7 @@ body {
 }
 
 .main-68 .w .list:first-child .s {
-    bottom: -121px;
+    bottom: -124px;
 }
 
 .main-68 .list:hover .s {
@@ -4360,4 +4379,49 @@ body {
 
 .footer .media li:first-child:hover .photo {
     opacity: 1;
+}
+
+
+/* 原来没有，新添加 */
+
+.header-right .ooo li:nth-child(2) .second-level {
+    width: 150px;
+    left: -34px;
+}
+
+.main-53 .w {
+    display: none;
+}
+
+.yy {
+    display: none;
+}
+
+/* 原来有，没有找到页面添加到index.css里 */
+
+.forminator-row .forminator-col {
+    border: 0;
+}
+
+.forminator-row .forminator-button-submit {
+    margin: 0 0 50px 0;
+}
+
+.main-56 .smart_content_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-43 .smart_content_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-44 .smart_content_wrapper {
+    display: flex;
+}
+
+.main-46 .smart_content_wrapper {
+    display: flex;
+    flex-wrap: wrap;
 }

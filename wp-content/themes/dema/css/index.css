@@ -104,7 +104,7 @@ body {
 }
 
 .second-level li {
-    border-bottom: 1px solid #e6e6e6;
+    border-bottom: 0.5px solid #e6e6e6;
 }
 
 .second-level li a {
@@ -139,8 +139,18 @@ body {
 
 }
 
+.header-right .ooo .t:hover .second-level {
+    height: 186px;
+    opacity: 1;
+}
+
+.header-right .ooo .t_a:hover .second-level {
+    height: 232px;
+    opacity: 1;
+}
+
 .header-right .ooo li:hover .second-level {
-    height: 187px;
+    height: 232px;
     opacity: 1;
 }
 
@@ -154,7 +164,7 @@ body {
 
 
 .header-right .ooo .t_a:hover .second-level {
-    height: 233px;
+    /* height: 233px; */
 }
 
 .header-right .ooo .t_a .second-level {
@@ -395,7 +405,7 @@ body {
     top: -30px;
     left: 0;
     right: 0;
-    z-index: 9999999;
+    z-index: 9999;
     transition: all 0.5s;
 }
 
@@ -770,10 +780,10 @@ body {
     width: 100%;
 }
 
-.main-5 .content>p {
+
+.main-5 .smart_content_wrapper p {
     font-size: 16px;
     color: #404040;
-    padding: 0 50px;
     margin: 0 0 42px 0;
     line-height: 25px;
     text-indent: 2em;
@@ -809,8 +819,8 @@ body {
     padding: 85px 0 0 0;
 }
 
-.main-5 .photo+p {
-    padding: 39px 50px 60px;
+.main-5 .wp-block-image+p {
+    padding: 39px 0 10px;
 }
 
 .main-6 {
@@ -1128,7 +1138,7 @@ body {
 .list .item p:nth-child(3) {
     border-bottom: 2px solid #3979af;
     position: relative;
-    bottom: -30px;
+    bottom: -27px;
     left: 0;
     transition: all 0.5s;
     opacity: 0;
@@ -1863,7 +1873,7 @@ body {
 .main-20 .item .s {
     border-bottom: 2px solid #3979af;
     position: relative;
-    bottom: -37px;
+    bottom: -32px;
     left: 0;
     transition: all 0.5s;
     opacity: 0;
@@ -2379,6 +2389,7 @@ body {
 
 .main-29 .content .picture {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -2396,6 +2407,8 @@ body {
 .main-29 .content p {
     padding: 10px 0 20px 0;
     line-height: 23px;
+    font-size: 16px;
+    text-indent: 2em;
 }
 
 .main-29 .content .picture img:hover {
@@ -2645,7 +2658,7 @@ body {
     padding-bottom: 20px;
 }
 
-.main-34 .content .list{
+.main-34 .content .list {
     width: 30%;
     margin: 0 35px;
 }
@@ -2655,12 +2668,12 @@ body {
     padding: 3px 0;
     background: #4c86b6;
     margin: 0 auto;
-    width: min-content;
+    /*     width: min-content; */
 }
 
 .main-34 .content {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     color: #999;
     padding: 0 0 50px 0;
 }
@@ -2766,6 +2779,7 @@ body {
     line-height: 23px;
     color: #000;
     text-indent: 2em;
+    font-size: 16px;
 }
 
 .main-36 p:last-child {
@@ -2877,7 +2891,7 @@ body {
 .main-40 .list .s {
     border-bottom: 2px solid #3979af;
     position: relative;
-    bottom: -50px;
+    bottom: -47px;
     left: 0;
     transition: all 0.5s;
     opacity: 0;
@@ -2994,7 +3008,7 @@ body {
 .main-43 .list .s {
     border-bottom: 2px solid #3979af;
     position: relative;
-    bottom: -50px;
+    bottom: -47px;
     left: 0;
     transition: all 0.5s;
     opacity: 0;
@@ -3137,7 +3151,7 @@ body {
 .main-46 .list .s {
     border-bottom: 2px solid #3979af;
     position: relative;
-    bottom: -50px;
+    bottom: -47px;
     left: 0;
     transition: all 0.5s;
     opacity: 0;
@@ -3397,6 +3411,7 @@ body {
 .main-50 .title p:nth-child(3) {
     text-transform: Uppercase;
     color: #999;
+    font-size: 16px;
 }
 
 .main-50 .content {
@@ -3671,6 +3686,7 @@ body {
 .main-54 .title p:nth-child(3) {
     text-transform: Uppercase;
     color: #999;
+    font-size: 16px;
 }
 
 .main-54 .content {
@@ -4016,7 +4032,7 @@ body {
 .main-68 .list .s {
     border-bottom: 2px solid #3979af;
     position: relative;
-    bottom: -80px;
+    bottom: -83px;
     left: 0;
     transition: all 0.5s;
     opacity: 0;
@@ -4236,9 +4252,6 @@ body {
     text-indent: 2em;
 }
 
-.nine .picture {
-    justify-content: center !important;
-}
 
 .twelve .photo,
 .eight .photo,
@@ -4380,4 +4393,29 @@ body {
     display: block;
     clear: both;
     zoom: 1;
+}
+
+/* 新添加 */
+.main-29 .content .photo {
+    text-align: center;
+}
+
+p .abstract {
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+/* 找不到页面写在index.css */
+
+.forminator-row .forminator-col {
+    border: 0px;
+}
+
+.forminator-row .forminator-button-submit {
+    margin: 0 0 50px 0;
 }

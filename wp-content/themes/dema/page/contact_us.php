@@ -102,4 +102,20 @@
         <?php show_post(556);?>
     </div>
 </div>
+<script type="text/javascript">
+    new WOW().init();
+    $(".main-21 input").focus(function() {
+        $(this).css({
+            "box-shadow": "0 0 10px 3px rgba(0,0,0,0.2)",
+            "transition": "all 0.5s"
+        });
+    });
+    $(".main-21 input").blur(function() {
+        $(this).css({
+            "box-shadow": "0 0 0 0 rgba(0,0,0,0.0)",
+            "transition": "all 0.5s"
+        });
+    });
+
+</script>
 <?php get_footer(); ?>
