@@ -8,11 +8,13 @@
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
     <?php if(get_query_var('lang')=='en'):?>
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/outer/css/media.css">
         <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/outer/css/index.css">
     <?php else:?>
         <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/index.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/media.css">
     <?php endif;?>
-    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/media.css">
+
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/animate.css">
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/swiper.min.css">
     <link rel="stylesheet" type="text/css"

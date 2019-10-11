@@ -1,0 +1,3198 @@
+/*手机最大768px*/
+@media screen and (max-width:767px) {
+    
+    .second-level{
+        width: 100%!important;
+    }
+
+    .index .carousel_a .swiper-slide p:nth-child(4) a {
+        background: #3979af;
+        color: #fff;
+        padding: 5px 5px;
+        border-radius: 6px;
+    }
+
+
+    .s {
+        display: none;
+    }
+
+    .header-right .ooo .t_a:hover .second-level {
+        height: 283px;
+    }
+
+    .list,
+    .item {
+        box-shadow: 0 0 0 0 !important;
+    }
+
+    .main-8 {
+        display: none;
+    }
+
+    .new_aa {
+        display: block;
+    }
+
+    .new_bb {
+        display: block;
+    }
+
+    .new_a {
+        display: block;
+    }
+
+    .index .carousel_a .swiper-slide p:nth-child(4) {
+        margin: 10px auto 0;
+    }
+
+    .header-right .t_b .second-level {
+        width: 100vw;
+    }
+
+    .header-right .ooo .t_b:hover .second-level {
+        height: 233px !important;
+    }
+
+    .header-right .ooo .t_a .second-level {
+        left: 0;
+    }
+
+
+    .chunk,
+    .main-53,
+    .main-49 {
+        display: none;
+    }
+
+
+    .carousel_a {
+        display: block;
+        background: #fff;
+    }
+
+    ul,
+    li {
+        margin: 0;
+    }
+
+    .w {
+        width: 100vw;
+    }
+
+    .aa {
+        display: none;
+    }
+
+    .bb {
+        display: block !important;
+    }
+
+    .header-right .ooo .t_a .second-level {
+        width: 100vw;
+        left: -10px;
+        height: 284px;
+    }
+
+    .header-right .ooo .second-level li {
+        padding: 0 0 0 20px;
+    }
+
+    .header-right .ooo .second-level {
+        left: -10px;
+        top: 55px;
+        padding: 10px 0 0 0;
+    }
+
+    .container {
+        width: 100vw;
+    }
+
+    /*.main,*/
+    /*        .main-1,
+    .main-2,
+    .main-3,
+    */
+    /*.main-4,*/
+    /*.main-5,*/
+    /*.main-6,*/
+    /*.main-7,*/
+    .main-8 .photo,
+    /*.main-9,*/
+    /*.main-10,*/
+    .insert,
+    .switch,
+    .icon-guanbi,
+    .new_b {
+        display: none;
+    }
+
+    .shaow {
+        width: 100vw;
+    }
+
+    .shaow_a {
+        width: 75vw;
+        margin: 0 auto;
+    }
+
+    .shaow_a .photo {
+        width: 75vw;
+        margin: 0 auto;
+    }
+
+    .guanbi {
+        right: -26px;
+    }
+
+    .main-21 {
+        padding: 20px 0 0 0;
+    }
+
+    .main-20 .item .nn p {
+        width: 140px;
+        padding: 5px 10px;
+    }
+
+    /*轮播图*/
+    html,
+    body {
+        position: relative;
+        height: 100%;
+    }
+
+    body {
+        background: #eee;
+        /*font-family: Helvetica Neue, Helvetica, Arial, sans-serif;*/
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .swiper-wrapper {
+        display: block;
+    }
+
+    .swiper-slide {
+        display: block;
+    }
+
+
+    .carousel_a .swiper-slide p {
+        color: #999;
+        font-size: 14px;
+        padding: 5px 0;
+    }
+
+    .carousel_a .swiper-slide p:nth-child(3) {
+        color: #000;
+    }
+
+
+
+
+    .carousel_a .swiper-slide p:nth-child(2) {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .carousel_a .swiper-slide p:nth-child(4) {
+        background: #3979af;
+        width: 35%;
+        margin: 0 auto;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .carousel_a a {
+        color: #fff;
+    }
+
+    .swiper-container-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: 5px !important;
+    }
+
+    .carousel_a .swiper-slide {
+        padding: 30px 0;
+    }
+
+    /*菜单图标*/
+    .icon,
+    .header-right img {
+        display: block;
+    }
+
+    .icon .icon-ego-menu,
+    .icon .icon-guanbi {
+        font-size: 30px;
+    }
+
+
+
+
+    /*头部*/
+
+    .header {
+        padding: 13px 0 0 0;
+        background: #fff;
+        z-index: 99999;
+    }
+
+    .header-left {
+        padding: 7px 0 0 20px;
+        align-items: center;
+    }
+
+    .logo-1 {
+        align-items: center;
+    }
+
+    .logo-1 .photo {
+        width: 100px;
+        height: 25px;
+        overflow: hidden;
+    }
+
+    .logo-1 .photo img {
+        max-width: 100%;
+    }
+
+    .logo-2 .photo {
+        width: 120px;
+        height: 25px;
+        overflow: hidden;
+    }
+
+
+    .logo-2 .photo img {
+        max-width: 100%;
+    }
+
+    /*导航*/
+    .header .container,
+    .header-right>ul {
+        display: block;
+        z-index: 9999;
+    }
+
+    .header-right {
+        position: relative;
+    }
+
+    .header-right .icon {
+        position: absolute;
+        top: -37px !important;
+        right: 21px !important;
+    }
+
+    .main-15 .item .icon:nth-child(2) {
+        height: 110px;
+    }
+
+    .main-13 #o {
+        height: 200px;
+    }
+
+    .header-right .ooo {
+        height: 100%;
+    }
+
+    .header-right>ul {
+        width: 100vw;
+        text-align: left;
+        margin: 0 auto;
+        display: none;
+        background: #fff;
+    }
+
+    .header-right>ul li {
+        padding: 13px 0 13px 50px;
+        border-bottom: 1px solid #e6e6e6;
+        display: flex;
+        align-items: center;
+    }
+
+    .header-right>ul>li:nth-child(even):after {
+        display: none;
+    }
+
+    .new {
+        position: relative;
+    }
+
+    .new img {
+        position: absolute;
+        top: -13px;
+        right: 53px;
+    }
+
+    .new img {
+        padding: 20px;
+    }
+
+    .t_a .new img {
+        position: absolute;
+        top: -13px;
+        right: 53px;
+    }
+
+    .header-right>ul li {
+        display: block;
+        padding: 0;
+    }
+
+    .t_a .second-level li {
+        width: 100vw;
+    }
+
+    .t_a .second-level {
+        padding: 20px 0 0 0;
+        width: 100%;
+    }
+
+    .main-31 .a1 {
+        display: none;
+    }
+
+    .t_a .second-level li a {
+        padding: 10px 0 10px 15px;
+    }
+
+    .header-right>ul>li {
+        padding: 18px 0 7px 15px;
+    }
+
+    .second-level li a {
+        text-align: left !important;
+    }
+
+
+    .header-right .ooo>li>a {
+        text-align: left;
+    }
+
+    /*去掉hover*/
+    .header-right .t {
+        /*pointer-events: none;*/
+    }
+
+    .main-1 {
+        /*         background: url('../img/photo-5.jpg')no-repeat center top;
+        background-size: cover;
+        background-attachment: scroll;
+        height: 180px; */
+    }
+
+    .second-level {
+        width: 100vw;
+        position: static;
+        padding: 15px 0 0 0;
+        display: none;
+    }
+
+    .header-right img {
+        width: 10px;
+        height: 6px;
+        margin: 0 0 0 200px;
+        display: block;
+    }
+
+    .shu .counter {
+        font-size: 3.9vw;
+    }
+
+    .main-2 {
+        /*margin: 0 0 10px 0;*/
+        height: 400px;
+        background-attachment: scroll;
+        background-position: 0;
+    }
+
+
+    .main-2 .main-2_top p:nth-child(1) {
+        padding: 40px 0 0 0;
+    }
+
+    .main-2 .main-2_top p:nth-child(2) {
+        padding: 7px 0 20px 0;
+    }
+
+    .main-2_middle .list p:nth-child(2) {
+        font-size: 12px;
+    }
+
+    .main-2_middle .list p:nth-child(3) {
+        margin: 12px auto 7px;
+    }
+
+    .main-2_bottom a {
+        padding: 5px 35px;
+    }
+
+    .main-2_middle .list {
+        margin: 0 2px;
+        padding: 7px 4px;
+        font-size: 18px;
+        width: 28%;
+    }
+
+    .main-2 .main-2_middle {
+        justify-content: space-around;
+    }
+
+
+    .main-3 {
+        height: 310px;
+        background-attachment: scroll;
+        background-position: 0;
+    }
+
+    .main-3_bottom .list {
+        text-align: center;
+    }
+
+
+    .main-3_bottom a:first-child .photo {
+        background: url(../img/a9.png) no-repeat;
+        margin: 16px auto 0;
+        height: 51px;
+        width: 50px;
+    }
+
+    .main-3_bottom a:nth-child(2) .photo {
+        background: url(../img/a10.png) no-repeat;
+        margin: 18px auto 0;
+        width: 50px;
+    }
+
+    .main-3_bottom a:nth-child(3) .photo {
+        background: url(../img/a11.png) no-repeat;
+        height: 43px;
+        margin: 30px auto 0;
+        text-align: center;
+        width: 50px;
+    }
+
+    .footer .media li:first-child a {
+        display: none;
+    }
+
+    .main-15 .item .nn {
+        width: 150px;
+    }
+
+    .footer .media .photo {
+        opacity: 1;
+    }
+
+    .main-3_bottom a:nth-child(4) .photo {
+        background: url(../img/a12.png) no-repeat;
+        height: 46px;
+        width: 50px !important;
+        margin: 24px auto 0;
+        text-align: center;
+    }
+
+    .main-3_bottom a:nth-child(4) .photo {
+        width: auto;
+    }
+
+
+    .main-3 .title {
+        padding: 40px 0 25px 0;
+    }
+
+    .main-3_bottom .photo {
+        width: 65px;
+        height: 69px;
+        margin: 0 auto;
+    }
+
+    .main-3_bottom .list p {
+        font-size: 13px;
+        padding: 25px 0 45px 0;
+    }
+
+    .main-3_bottom a {
+        display: block;
+        width: 23%;
+    }
+
+    .main-6 #o {
+        height: 200px;
+    }
+
+    .main-4 {
+        height: 200px;
+        background-image: url(../img/q18.jpg);
+        background-size: 100% auto;
+        background-attachment: scroll;
+        background-position: 0;
+    }
+
+
+    .main-5 {
+        background: #fff;
+    }
+
+    .main-5 .title {
+        padding: 40px 0 15px 0;
+        font-size: 25px;
+    }
+
+    .main-5 .title p:nth-child(2) {
+        margin: 10px auto 0;
+    }
+
+    .main-5 .content>p {
+        padding: 20px 12px;
+        margin: 0 0 20px 0;
+        font-size: 15px;
+    }
+
+    .main-5 .photo {
+        background-size: 100%;
+        height: 169px;
+    }
+
+    .main-5 .text-1 {
+        position: static;
+        padding: 0;
+        width: 40%;
+    }
+
+    .main-5 .text-1 p:nth-child(1) {
+        padding: 0 0 0 10px;
+        font-size: 22px;
+    }
+
+    .main-5 .text-1 p:nth-child(2) {
+        margin: 5px 0 0 10px;
+        padding: 1px 15px;
+    }
+
+    .main-5 .text-1 p:nth-child(3) {
+        padding: 0 0 0 10px;
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
+
+
+    .main-6 {
+        padding: 30px 0;
+    }
+
+    .main-6 .container {
+        margin: 0 auto;
+        width: 90vw;
+    }
+
+
+
+
+
+    .main-7 {
+        height: 200px;
+        background-image: url(../img/q19.jpg);
+        background-size: 100%;
+        background-attachment: scroll;
+    }
+
+
+    .main-8 {
+        height: 30px;
+        padding: 0;
+    }
+
+    .main-8 .container,
+    .dot,
+    .wire {
+        display: none;
+    }
+
+    .main-8 .list-1,
+    .main-8 .list-2 {
+        display: block;
+        padding: 0;
+    }
+
+    .main-8 .list-1 .item {
+        margin: 10px auto;
+        width: 80vw;
+        padding: 5px 0 0 0;
+    }
+
+    .main-8 .list-2 .item {
+        margin: 10px auto;
+        width: 80vw;
+    }
+
+    .main-8 .list-1 .item:nth-child(3),
+    .main-8 .list-1 .item:nth-child(4),
+    .main-8 .list-2 .item:nth-child(1),
+    .main-8 .list-2 .item:nth-child(2) {
+        margin: 10px auto;
+        width: 80vw;
+    }
+
+    .main-8 .list-1 .item p:nth-child(1),
+    .main-8 .list-2 .item p:nth-child(1) {
+        margin: 0 auto;
+        width: 80vw;
+        padding: 0;
+    }
+
+
+    .main-9 {
+        height: 200px;
+        background-image: url(../img/q20.jpg);
+        background-size: 100%;
+        background-attachment: scroll;
+    }
+
+    .main-10 {
+        background: #fff;
+    }
+
+    .main-10 .list {
+        justify-content: space-around;
+        padding: 40px 0 10px 0;
+    }
+
+    .main-10 .list .item {
+        margin: 7px 0;
+        width: 47%;
+    }
+
+    .main-10 .list .item p:nth-child(1) {
+        font-size: 16px;
+        padding: 5px;
+        width: 135px;
+    }
+
+    .main-10 .list .item p:nth-child(2) {
+        padding: 10px 5px;
+        font-size: 14px;
+    }
+
+
+
+    /*全球集团*/
+
+    .group .header .container {
+        padding: 0;
+        margin: 0 auto;
+        width: 100vw !important;
+    }
+
+    .main-11 {
+        height: 200px;
+        background-image: url(../img/q16.jpg);
+        background-size: cover;
+        background-attachment: scroll;
+    }
+
+
+    .main-12 {
+        background: #fff;
+    }
+
+    .main-12 .container {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .main-12 .title {
+        padding: 30px 0 25px 0;
+        font-size: 22px;
+    }
+
+    .main-12 .title p:nth-child(2) {
+        margin: 10px auto 0;
+    }
+
+    .main-12 .content {
+        padding: 0 15px;
+    }
+
+    .main-12 .content p {
+        padding: 0 0 15px 0;
+    }
+
+    .main-12 .content .photo+p {
+        padding: 20px 0;
+    }
+
+    .main-13 .container {
+        padding: 0;
+        margin: 0 auto;
+        width: 95vw;
+    }
+
+    .main-14 {
+        height: 270px;
+        background-image: url(../img/phone-4.jpg);
+        background-position: 0;
+        background-size: 100%;
+        background-attachment: scroll;
+    }
+
+    .main-15 {
+        padding: 20px 0 0 0;
+    }
+
+    .main-15 .container {
+        padding: 0;
+        margin: 0 auto;
+        width: 95vw;
+    }
+
+    .main-15 .item {
+        width: 48%;
+        padding: 0;
+        margin: 10px auto;
+    }
+
+    .main-15 .item>p {
+        width: 70%;
+    }
+
+    .main-15 p+.icon {
+        padding: 5px 5px 0 20px;
+    }
+
+    .main-15 i {
+        padding: 0 5px;
+    }
+
+
+
+    /*联系我们*/
+    .main-16 {
+        height: 200px;
+        background-image: url(../img/q15.jpg);
+        background-size: cover;
+        background-attachment: scroll;
+        background-position: 0;
+    }
+
+    .main-17 .title {
+        padding: 30px 0 25px 0;
+        font-size: 22px;
+    }
+
+    .main-17 .title p:nth-child(2) {
+        padding: 2px 15px;
+        width: 10px;
+        margin: 10px auto;
+    }
+
+    .main-17 .title p:nth-child(3) {
+        font-size: 18px;
+    }
+
+    .main-18 {
+        height: 275px;
+        background-attachment: scroll;
+        background: url(../img/photo-14.jpg) no-repeat center top;
+        background-size: cover;
+    }
+
+    .main-18 .photo>img {
+        display: none;
+    }
+
+    .p {
+        display: none;
+    }
+
+    .main-19 {
+        padding: 0 0 30px 0;
+        background: #fff;
+    }
+
+    .main-19 .title {
+        padding: 30px 0 25px 0;
+        font-size: 22px;
+    }
+
+    .main-19 .title p:nth-child(2) {
+        padding: 1px 15px;
+        margin: 10px auto;
+        width: 10px;
+    }
+
+    .main-19 .title p:nth-child(3) {
+        font-size: 16px;
+    }
+
+    .main-19 .item {
+        width: 45%;
+        margin: 10px auto;
+    }
+
+    .main-19 .item>p {
+        font-size: 16px;
+        width: 70%;
+        padding: 5px 10px;
+    }
+
+    .main-19 p+.icon {
+        padding: 15px 10px;
+    }
+
+    .main-19 .icon {
+        padding: 0 10px 15px 10px;
+    }
+
+    .main-20 {
+        background: #fff;
+    }
+
+    .main-20 .title {
+        padding: 30px 0 25px 0;
+        font-size: 22px;
+    }
+
+    .main-20 .title p:nth-child(2) {
+        font-size: 16px;
+        padding: 1px 10px;
+        margin: 10px auto;
+        width: 20px;
+    }
+
+    .main-20 .title p:nth-child(3) {
+        font-size: 16px;
+    }
+
+    .main-20 .item {
+        width: 47%;
+    }
+
+    .main-20 .item>p {
+        width: 60%;
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+
+    .main-20 p+.icon {
+        padding: 10px 10px 5px;
+    }
+
+    .main-20 .icon {
+        padding: 6px 20px;
+    }
+
+    .main-21 input {
+        padding: 10px 0 10px 5px;
+        width: 90%;
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    .main-21 .input_c {
+        padding: 15px 0 30px 0;
+    }
+
+    .main-21 textarea {
+        width: 90%;
+        padding: 5px 0 100px 5px;
+    }
+
+
+
+    /*加入我们*/
+    .main-22 {
+        height: 200px;
+        background-image: url(../img/q17.jpg);
+        background-size: cover;
+        background-attachment: scroll;
+        background-position: 0;
+    }
+
+    .main-23 {
+        background: #fff;
+    }
+
+    .main-23 .title {
+        padding: 30px 0 25px 0;
+        font-size: 20px;
+    }
+
+    .main-23 .title p:nth-child(2) {
+        padding: 2px 10px;
+        margin: 10px auto;
+    }
+
+    .main-23 .title p:nth-child(3) {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .main-24 {
+        height: 230px;
+        background-image: url(../img/p3.jpg);
+        background-attachment: scroll;
+    }
+
+    .main-25 {
+        top: 0;
+    }
+
+    .main-25 .content {
+        display: block;
+        padding: 20px 15px;
+    }
+
+    .main-25 .content .left {
+        font-size: 40px;
+    }
+
+    .main-25 .content .right>p {
+        display: none;
+    }
+
+    .main-25 .content .item p:nth-child(1) {
+        font-size: 18px;
+    }
+
+    .main-25 .content .item p:nth-child(2) {
+        font-size: 20px;
+    }
+
+    .main-26 {
+        background: #fff;
+    }
+
+    .main-26 .title {
+        padding: 30px 0;
+        font-size: 22px;
+    }
+
+    .main-26 .title p:nth-child(2) {
+        width: 20px;
+        margin: 10px auto;
+    }
+
+    .main-17,
+    .main-18 {
+        display: none;
+    }
+
+    .main-21 .input_a {
+        flex-wrap: wrap;
+    }
+
+    .main-19 .item .nn+.icon {
+        height: 98px;
+        padding: 10px 10px 15px 10px;
+    }
+
+    .main-26 .content {
+        padding: 30px 0 0 0;
+        flex-wrap: wrap;
+    }
+
+    .main-26 .content .item {
+        width: 40%;
+        margin: 0 auto 60px;
+        height: 100px;
+    }
+
+    .main-26 .content .item>p {
+        font-size: 16px;
+        padding: 30px 0 20px 0;
+    }
+
+    .main-26 .content .item .photo {
+        left: 30%;
+        width: 70px;
+        height: 71px;
+    }
+
+    .main-27 {
+        height: 200px;
+        background-image: url(../img/q14.jpg);
+        background-size: 100%;
+        background-attachment: scroll;
+    }
+
+    .main-28 {
+        padding: 0 0 30px 0;
+    }
+
+    .main-28 .title {
+        padding: 0 0 10px 0;
+    }
+
+    .main-28 .title p:nth-child(1) {
+        padding: 50px 0 5px 0;
+        font-size: 22px;
+    }
+
+    .main-28 .title p:nth-child(2) {
+        width: 10px;
+        padding: 2px 15px;
+        margin: 10px auto;
+    }
+
+    .main-28 .content .list .photo {
+        display: none;
+    }
+
+    .main-28 .content .list .text-2 {
+        padding: 27px 0;
+        width: 100vw;
+    }
+
+    .main-28 .content .list .text-2 p:nth-child(1) {
+        font-size: 18px;
+        width: 95vw;
+        margin: 0 auto;
+    }
+
+    .main-28 .content .list .text-2 p:nth-child(2) {
+        margin: 10px auto;
+        width: 95vw;
+        line-height: 25px;
+        -webkit-line-clamp: 2;
+    }
+
+    .main-28 .content .list .text-2 p:nth-child(3) a {
+        padding: 5px 25px;
+        margin: 0 0 0 15px;
+    }
+
+    .main-28 .content .list {
+        margin: 0 0 15px 0;
+    }
+
+    .return {
+        display: none !important;
+    }
+
+    .main-28 .more {
+        margin: 15px auto;
+        padding: 6px 7px;
+        width: 110px;
+    }
+
+    .main-28 .more a {
+        padding: 8px 20px;
+    }
+
+
+
+    /*新闻详情*/
+    .main-29 {
+        background: #fff;
+    }
+
+    .main-29 .title p:nth-child(1) {
+        font-size: 18px;
+        padding: 30px 0 15px 0;
+    }
+
+    .main-29 .title p:nth-child(2) {
+        padding: 0 0 15px 0;
+    }
+
+    .main-29 .content {
+        width: 95%;
+        font-size: 15px;
+        padding: 0 0 50px 0;
+    }
+
+    .main-29 .content p {
+        padding: 0 0 10px 0;
+        line-height: 25px;
+    }
+
+    .main-29 .content .picture .photo {
+        width: 49%;
+        /* height: 105px; */
+        margin: 5px 0;
+    }
+
+    .main-29 .content .picture .photo img {
+        max-width: 100%;
+    }
+
+
+
+    /*行业案例*/
+    .main-30 {
+        height: 180px;
+        background-image: url(../img/q4.jpg);
+        background-position: 0;
+        background-size: 100%;
+        background-attachment: scroll;
+    }
+
+    .main-31 {
+        background: #fff;
+    }
+
+    .main-31 .content {
+        padding: 30px 0 15px 0;
+    }
+
+    .main-31 .content .list {
+        width: 93%;
+        padding: 15px 0;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .main-31 .content .photo {
+        width: 53px;
+    }
+
+    .main-31 .content .text-3 {
+        width: auto;
+        opacity: 1;
+        position: static;
+        padding: 10px 0;
+        pointer-events: none;
+        background: 0;
+        height: auto;
+        color: rgba(76, 134, 182, 0.8);
+    }
+
+    .main-31 .list p:nth-child(1) {
+        font-size: 16px;
+        text-align: center;
+        padding: 0 0 10px 0;
+    }
+
+    .main-31 .list p:nth-child(2) {
+        display: none;
+    }
+
+    .main-31 .list p:nth-child(3) {
+        padding: 0 5px;
+    }
+
+
+
+    /*特殊货物*/
+    .main-32 {
+        height: 180px;
+        background-image: url(../img/q5.jpg);
+        background-position: 0 0;
+        background-size: 100%;
+        background-attachment: scroll;
+    }
+
+    .main-33 .title {
+        padding: 30px 0 15px 0;
+    }
+
+    .main-33 .w .title p:nth-child(1) {
+        font-size: 22px;
+        padding-bottom: 10px;
+    }
+
+    .main-33 .content {
+        padding: 0 0 30px 0;
+    }
+
+    .main-33 .title p:nth-child(2) {
+        margin: 0 auto;
+        width: 30px;
+        padding: 2px 8px;
+    }
+
+    .main-33 .content .list .photo {
+        width: 33vw;
+        height: auto;
+    }
+
+    .main-33 .content .list {
+        pointer-events: none;
+    }
+
+    .main-33 .content .text-4 {
+        opacity: 0;
+        padding: 5px 0;
+
+    }
+
+    .main-34 .title {
+        font-size: 22px;
+        padding: 30px 0 20px 0;
+    }
+
+    .main-34 .title p:nth-child(1) {
+        padding-bottom: 10px;
+    }
+
+    .main-34 .title p:nth-child(2) {
+        padding: 2px 15px;
+        width: 30px;
+    }
+
+    .main-34 .content {
+        padding-bottom: 20px;
+        flex-wrap: wrap;
+    }
+
+    .main-34 .content .list .photo {
+        width: 190px;
+        height: 185px;
+    }
+
+    .main-34 .content .list>p:nth-child(2) {
+        font-size: 17px;
+        width: 190px;
+    }
+
+    .main-34 .content .bottom p:nth-child(1) {
+        font-size: 16px;
+    }
+
+    .main-34 .content .bottom p:nth-child(2) {
+        font-size: 20px;
+    }
+
+    .main-34 .content .bottom {
+        justify-content: space-between;
+    }
+
+    .main-34 .content .list {
+        margin: 0 0 20px 0;
+    }
+
+    .main-37 #o {
+        height: 200px;
+    }
+
+
+    /*物流方案*/
+    .main-35 {
+        height: 183px;
+        background-image: url(../img/q6.jpg);
+        background-position: 0 0;
+        background-size: cover;
+        background-attachment: scroll;
+    }
+
+    .s {
+        border: 0px !important;
+    }
+
+    .list,
+    .item {
+        box-shadow: 0 0 0 0 !important;
+    }
+
+
+    .main-36 p {
+        width: auto;
+        opacity: 1;
+        padding: 3px 5px;
+        position: static;
+        height: 73%;
+        color: #000;
+    }
+
+    .main-36 p {
+        padding: 20px 10px 10px;
+    }
+
+
+    .main-36 {
+        padding: 30px 0 20px 0;
+    }
+
+
+
+
+
+    .main-37 {
+        padding: 20px 0;
+        width: 95vw;
+    }
+
+    .main-38 .title {
+        padding: 30px 0 15px 0;
+        font-size: 22px;
+    }
+
+    .main-38 .title p:nth-child(2) {
+        width: 40px;
+        margin: 10px auto;
+    }
+
+    .main-38 .content {
+        padding: 0 0 30px 0;
+    }
+
+
+
+    /*保险*/
+    .main-39 {
+        height: 200px;
+        background-image: url(../img/q7.jpg);
+        background-position: 0 0;
+        background-size: 100%;
+        background-attachment: scroll;
+    }
+
+    .main-40 {
+        background: #fff;
+    }
+
+    .main-40 .content {
+        padding: 30px 0;
+    }
+
+    .main-40 .content .list {
+        width: 45%;
+        margin: 8px 0 0 14px;
+        height: 142px;
+    }
+
+    .main-40 .content .list p:nth-child(1) {
+        width: 80px;
+        margin: 10px 0;
+    }
+
+    .main-40 .content .list p:nth-child(2) {
+        padding: 5px 20px;
+        font-size: 14px;
+    }
+
+    .main-43 .content .list p:nth-child(1) {
+        width: 100px;
+    }
+
+
+    .main-41 {
+        height: 300px;
+        background-position: 0 0;
+        background-size: 100%;
+        background-attachment: scroll;
+        background: url('../img/q8.jpg')no-repeat center right;
+    }
+
+    .main-42 {
+        height: 200px;
+        background-image: url(../img/q9.jpg);
+        background-position: 0 0;
+        background-size: 100%;
+        background-attachment: scroll;
+    }
+
+
+    .main-43 .content .list {
+        width: 48%;
+        margin: 0 0 10px 5px;
+        height: 200px;
+    }
+
+    .main-43 .content .list:last-child {
+        align-self: flex-start;
+    }
+
+    .main-43 .content {
+        padding: 20px 0;
+    }
+
+    .main-43 .content .list p:nth-child(2) {
+        font-size: 15px;
+        padding: 0 15px;
+    }
+
+    .main-44 .content .list {
+        width: 48%;
+        margin: 10px auto;
+    }
+
+    .main-44 .content {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 30px 0;
+    }
+
+    .main-44 .photo {
+        width: 180px;
+        height: 111px;
+    }
+
+    .main-44 .top p:nth-child(1) {
+        font-size: 14px;
+    }
+
+    .main-45 {
+        height: 200px;
+        background-attachment: scroll;
+        background: url(../img/q10.jpg);
+        background-size: 100%;
+    }
+
+    .main-46 .content .list {
+        width: 45%;
+        margin: 0 auto 15px;
+        height: 130px;
+    }
+
+    .main-46 .content .list p:nth-child(1) {
+        margin: 10px 0;
+        width: 80px;
+    }
+
+    .main-46 .content .list p:nth-child(2) {
+        padding: 0 0 13px 25px;
+        font-size: 15px;
+        width: 37vw;
+    }
+
+    .main-46 .content {
+        padding: 20px 0;
+    }
+
+    .main-47 {
+        height: 183px;
+        background-image: url(../img/q11.jpg);
+        background-size: cover;
+        background-position: 0 0;
+        background-attachment: scroll;
+    }
+
+    .main-48 .content {
+        padding: 20px 0;
+    }
+
+    .main-48 .content .list {
+        width: 45%;
+        margin: 0 auto 15px;
+        height: 260px;
+        display: flex;
+    }
+
+    .main-48 .content .list p:nth-child(1) {
+        margin: 10px 0;
+        width: 50px;
+    }
+
+    .main-48 .content .list p:nth-child(2) {
+        padding: 0 20px;
+        font-size: 15px;
+    }
+
+    .main-49 .title {
+        padding: 20px 0;
+    }
+
+    .main-49 .title p:nth-child(1) {
+        font-size: 22px;
+    }
+
+    .main-49 .title p:nth-child(2) {
+        width: 45px;
+        padding: 2px 2px;
+        margin: 10px auto;
+    }
+
+    .main-49 .title p:nth-child(3) {
+        font-size: 17px;
+    }
+
+    .main-49 .bottom .photo {
+        width: 100vw;
+    }
+
+    .main-49 .bottom .photo img {
+        max-width: 100%;
+    }
+
+    .main-49 .top {
+        top: -96px;
+        left: 10px;
+        font-size: 12px;
+    }
+
+    .main-49 .top li img {
+        width: 15px;
+        height: 18px;
+    }
+
+    .main-49 .top li {
+        padding: 2px 0;
+    }
+
+
+    .main-50 .content {
+        display: block;
+    }
+
+    .main-50 .title {
+        padding: 20px 0 15px 0;
+    }
+
+
+    .main-50 .title p:nth-child(1) {
+        font-size: 22px;
+    }
+
+    .main-50 .title p:nth-child(2) {
+        width: 40px;
+        padding: 2px 0;
+        margin: 10px auto;
+    }
+
+    .main-50 {
+        padding: 0 0 20px 0;
+    }
+
+    .main-50 .content .photo {
+        padding: 0 8px;
+    }
+
+    .main-51 {
+        height: 205px;
+        background-image: url(../img/q12.jpg);
+        background-size: 100%;
+        background-position: 0 0;
+        background-attachment: scroll;
+    }
+
+    .main-52 .content {
+        padding: 20px 0;
+    }
+
+    .main-52 .content .list {
+        width: 48%;
+        margin: 0 auto 15px;
+        height: 200px;
+    }
+
+    .main-52 .content .list p:nth-child(1) {
+        margin: 10px 0;
+        width: 50px;
+    }
+
+    .main-52 .content .list p:nth-child(2) {
+        padding: 0 15px;
+        font-size: 15px;
+        width: auto;
+    }
+
+    .main-53 .title {
+        padding: 20px 0 15px 0;
+    }
+
+    .main-53 .title p:nth-child(1) {
+        font-size: 22px;
+    }
+
+    .main-53 .title p:nth-child(2) {
+        width: 50px;
+        margin: 10px auto;
+    }
+
+    .main-53 .title p:nth-child(3) {
+        font-size: 16px;
+    }
+
+    .main-53 .bottoma .photo {
+        width: 100vw;
+    }
+
+    .main-53 .bottoma .photo img {
+        max-width: 100%;
+    }
+
+
+    .main-53 .topa {
+        top: -96px;
+        left: 10px;
+        font-size: 12px;
+    }
+
+    .main-53 .topa li img {
+        width: 15px;
+        height: 18px;
+    }
+
+    .main-53 .topa li {
+        padding: 2px 0;
+    }
+
+
+    .main-54 {
+        padding: 0 0 20px 0;
+    }
+
+    .main-54 .title {
+        padding: 20px 0 15px 0;
+    }
+
+    .main-54 .title p:nth-child(1) {
+        font-size: 22px;
+    }
+
+    .main-54 .title p:nth-child(2) {
+        width: 40px;
+        margin: 10px auto;
+    }
+
+    .main-55 {
+        height: 183px;
+        background-image: url(../img/q13.jpg);
+        background-position: 0 0;
+        background-size: 100%;
+        background-attachment: scroll;
+    }
+
+    .main-56 .content {
+        padding: 20px 0;
+    }
+
+    .main-56 .content .list {
+        width: 45%;
+        margin: 0 0 15px 14px;
+        height: 200px;
+    }
+
+    .main-56 .content .list p:nth-child(1) {
+        margin: 10px 0;
+        width: 50px;
+    }
+
+    .main-56 .content .list p:nth-child(2) {
+        padding: 0 15px;
+        font-size: 15px;
+        width: 37vw;
+    }
+
+    .main-57 .title {
+        padding: 20px 0;
+    }
+
+    .main-57 .title p:nth-child(1) {
+        font-size: 22px;
+    }
+
+    .main-57 .title p:nth-child(2) {
+        width: 40px;
+        margin: 10px auto;
+    }
+
+    .main-57 .title p:nth-child(3) {
+        font-size: 16px;
+    }
+
+
+
+    /*首页端到端*/
+    .main-58 {
+        height: 160px;
+        background-size: 100%;
+    }
+
+    .main-59 {
+        padding: 15px 0;
+    }
+
+    .main-60 .w {
+        padding: 15px 0;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
+
+    .main-61 #o {
+        height: 200px;
+    }
+
+    .main-65 #o {
+        height: 200px;
+    }
+
+    .main-60 .list {
+        width: 47%;
+        background: #fff;
+        height: 300px;
+        margin: 0 0 10px 8px;
+    }
+
+    .main-60 .list p:nth-child(1) {
+        background: #4c86b6;
+        color: #fff;
+        width: 0;
+        padding: 7px 45px;
+        margin: 15px 0 0 0;
+    }
+
+
+    .main-60 .list p:nth-child(2) {
+        padding: 5px 3px;
+        margin: 10px 0 0 0;
+        font-size: 14px;
+    }
+
+    .main-61 {
+        padding: 20px 0;
+    }
+
+
+
+
+
+    /* 首页供应链管理可视化 */
+
+    .main-62 {
+        height: 160px;
+        background-attachment: fixed;
+        background-image: url('../img/photo-76.jpg');
+        background-repeat: repeat-x;
+        background-size: 100%;
+        background-position: 0 0;
+    }
+
+    .main-63 {
+        padding: 15px 0;
+    }
+
+    .main-64 .w {
+        padding: 15px 0;
+    }
+
+    .main-64 .list {
+        width: auto;
+    }
+
+
+    .main-65 {
+        padding: 15px 0;
+    }
+
+
+
+    /*首页定制化客户服务*/
+    .main-66 {
+        height: 160px;
+        background-size: 100%;
+    }
+
+    .main-67 {
+        padding: 15px 0;
+    }
+
+    .main-68 .w {
+        padding: 15px 0;
+    }
+
+    .main-68 .list {
+        width: 32%;
+        background: #fff;
+    }
+
+    .main-68 .list p:first-child {
+        font-size: 15px;
+    }
+
+
+    .main-68 .list p {
+        padding: 5px 3px;
+        font-size: 14px;
+    }
+
+
+
+
+    /*首页优势航线的高品质服务*/
+    .main-69 {
+        height: 145px;
+        background-size: 100%;
+    }
+
+    .main-70 {
+        padding: 15px 0;
+    }
+
+    .main-71 .w {
+        padding: 15px 0;
+        justify-content: end;
+    }
+
+    .main-71 .list {
+        margin: 0 0 10px 14px;
+        width: 45%;
+        height: 140px;
+    }
+
+    .main-71 .list p:nth-child(1) {
+        padding: 5px 30px;
+        margin: 10px 0 0 0;
+    }
+
+
+    .main-71 .list p:nth-child(2) {
+        padding: 10px 5px;
+        margin: 0;
+    }
+
+    .main-19 .item .nn p {
+        font-size: 16px;
+        width: 140px;
+        padding: 5px 10px;
+    }
+
+
+
+    /*底部*/
+    .footer-top {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .footer-top>ul {
+        padding: 0 15px;
+    }
+
+    .footer-top>ul>li:first-child a {
+        padding: 10px 0 15px 0;
+    }
+
+    .footer-top .media {
+        padding: 0 0 10px 13px;
+    }
+
+    .footer-top .media>li {
+        text-align: left;
+    }
+
+    .footer .media ul li a {
+        width: 36px;
+        height: 35px;
+        display: block;
+    }
+
+    .footer .media ul li a img {
+        max-width: 100%;
+    }
+
+    .footer-bottom {
+        padding: 10px 0;
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width:375px) {
+
+    .main-5 .text-1 {
+        height: 91%;
+    }
+
+    .main-52 .content .list,
+    .main-56 .content .list {
+        height: 220px;
+    }
+
+
+    .main-48 .content .list {
+        height: 280px;
+    }
+
+    .main-46 .content .list {
+        height: 160px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .main-5 .text-1 {
+        height: 99%;
+    }
+
+    .main-5 .photo {
+        height: 132px;
+    }
+
+    .main-5 .text-1 p:nth-child(1) {
+        font-size: 18px;
+    }
+}
+
+/*平板最大900px*/
+@media screen and (min-width:768px) and (max-width:1199px) {
+
+    .main-49,
+    .main-53 {
+        display: none;
+    }
+
+    .new_aa {
+        display: block;
+    }
+
+    .new_bb {
+        display: block;
+    }
+
+    ul,
+    li {
+        margin: 0;
+    }
+
+    .w {
+        width: 100vw;
+    }
+
+    .group .header .container {
+        width: 100vw !important;
+    }
+
+    .container {
+        width: 100vw !important;
+    }
+
+
+    /*菜单图标*/
+    .icon,
+    .header-right img {
+        display: block;
+    }
+
+    .icon .icon-ego-menu,
+    .icon .icon-guanbi {
+        font-size: 30px;
+    }
+
+    .header-right ul,
+    .switch,
+    /* .chunk, */
+    .main-8 .dot,
+    .main-8 .container,
+    .main-8 .wire,
+    /*.main-1*/
+    /*.main-2*/
+    /*,.main*/
+    /*.insert,*/
+    .switch,
+    .p {
+        display: none;
+    }
+
+    .header {
+        padding: 15px 0;
+    }
+
+    .header-left {
+        padding: 0 0 0 20px;
+    }
+
+    .header .container {
+        display: block;
+    }
+
+    .header-right {
+        position: relative;
+        display: block;
+    }
+
+    .header-right ul li {
+        width: 100vw;
+        border-bottom: 1px solid #e6e6e6;
+    }
+
+
+
+    .header-right>.icon {
+        position: absolute;
+        top: -30px;
+        right: 30px;
+    }
+
+    .header-right>ul>li {
+        padding: 15px 0;
+        border-bottom: 1px solid #e6e6e6;
+        position: relative;
+    }
+
+    .header-right>ul>li img {
+        position: absolute;
+        top: -74%;
+        right: 14%;
+    }
+
+    .header-right>ul>li a {
+        /* padding: 0 0 0 20px; */
+    }
+
+    .header-right .icon-guanbi {
+        display: none;
+    }
+
+    .second-level {
+        position: static;
+        padding: 0;
+    }
+
+    .second-level li {
+        /*border-bottom: 2px solid #4b85b6;*/
+    }
+
+    .ooo li a {
+        text-align: left !important;
+        padding: 0 0 0 20px;
+    }
+
+    .t_a .second-level {
+        padding: 20px 0 0 0;
+    }
+
+    .header-right .second-level li a {
+        padding: 8px 0 8px 40px;
+    }
+
+    .new {
+        position: relative;
+    }
+
+    .new img {
+        width: 10px;
+        height: 6px;
+        padding: 23px;
+    }
+
+    .main-1 .swiper-container {
+        height: 300px;
+    }
+
+
+
+
+    /*首页图标滑动*/
+    .insert {
+        margin: 50px 0 0 0;
+        padding: 20px 0;
+    }
+
+    .main-1_list {
+        padding: 50px 0;
+    }
+
+    .main-1_list .item {
+        width: 19%;
+        /* pointer-events: none; */
+        box-shadow: 0 0 0 0;
+    }
+
+    .main-1_list .item>p {
+        font-size: 14px;
+        width: auto;
+        margin: 8px 0 0 0;
+    }
+
+    .main-1_list .photo {
+        width: 55px;
+        height: 55px;
+        top: -32px;
+        left: 30%;
+    }
+
+    .main-1_list .item .item-top {
+        display: block;
+    }
+
+    .main-1_list .item-top p:nth-child(1) {
+        font-size: 14px;
+        padding: 45px 6px 25px;
+        text-align: left;
+        height: 65px;
+    }
+
+    .main-1_list .item-top p:nth-child(2) {
+        padding: 0;
+    }
+
+    .main-1_list .item-top p:nth-child(2) a {
+        padding: 2px 5px;
+    }
+
+    .main-1_list .item:first-child .item-top p:first-child {
+        position: static;
+    }
+
+    .main-1_list .item:first-child .item-top p:last-child {
+        position: static;
+    }
+
+    .main-1_list .item:hover .photo {
+        pointer-events: none;
+        top: -32px;
+        left: 47px;
+    }
+
+
+
+    .header-right>ul>li:nth-child(even):after {
+        display: none;
+    }
+
+    .main-1 {
+        height: 203px;
+    }
+
+    .main-2 {
+        height: 360px;
+        background-attachment: scroll;
+        background-position: 0;
+    }
+
+
+    .main-2 {
+        margin: 20px 0 0 0;
+    }
+
+    .main-2 .main-2_top p:nth-child(1) {
+        padding: 40px 0 9px 0;
+    }
+
+    .main-2 .main-2_top p:nth-child(2) {
+        padding-bottom: 20px;
+    }
+
+    .main-2_middle .list {
+        margin: 0 20px;
+        padding: 5px 10px;
+    }
+
+    .main-2_bottom a {
+        padding: 8px 35px;
+    }
+
+    .main-3 {
+        height: 350px;
+        background-attachment: scroll;
+    }
+
+    .main-3 .title {
+        padding: 40px 0 35px 0;
+    }
+
+
+
+    /*关于我们*/
+    .main-4 {
+        height: 236px;
+        background-attachment: scroll;
+        background-position: 0 0;
+    }
+
+    .main-5 .title {
+        font-size: 25px;
+        padding: 35px 0 20px 0;
+    }
+
+    .main-5 .title p:nth-child(2) {
+        margin: 10px auto;
+        width: 10px;
+    }
+
+    .main-5 .photo+p {
+        padding: 20px 30px;
+        margin: 0 0 20px 0;
+    }
+
+    .main-5 .content>p {
+        padding: 0 30px 10px;
+        margin: 0 0 10px 0;
+    }
+
+    .main-5 .text-1 p:nth-child(1) {
+        font-size: 30px;
+        padding: 30px 0;
+    }
+
+    .main-5 .text-1 p:nth-child(3) {
+        font-size: 30px;
+        padding: 30px 0 0 0;
+    }
+
+    .main-5 .text-1 {
+        padding: 0 0 0 30px;
+        left: 0;
+        width: 30%;
+    }
+
+    .main-6 {
+        padding: 30px 0;
+    }
+
+    .main-6 .container {
+        width: 95vw;
+        margin: 0 auto;
+    }
+
+    .main-7 {
+        background-attachment: scroll;
+        height: 350px;
+        background-size: cover;
+    }
+
+    .main-8 {
+        padding: 20px 0;
+    }
+
+    .main-9 {
+        background-size: cover;
+        background-attachment: scroll;
+        height: 350px;
+    }
+
+
+    .main-10 .list {
+        padding: 30px 0 10px 0;
+    }
+
+    .main-10 .list .item {
+        margin: 10px auto;
+        width: 30%;
+    }
+
+    .main-10 .list .item p:nth-child(1) {
+        font-size: 18px;
+    }
+
+    .main-10 .list .item p:nth-child(2) {
+        padding: 15px 5px;
+        font-size: 16px;
+    }
+
+
+
+    /*全球集团*/
+    .main-11 {
+        height: 250px;
+        background-attachment: scroll;
+    }
+
+    .main-12 .title {
+        padding: 40px 0 20px 0;
+        font-size: 22px;
+    }
+
+    .main-12 .title p:nth-child(2) {
+        margin: 10px auto;
+    }
+
+    .main-12 .content {
+        padding: 0 20px;
+    }
+
+    .container {
+        padding: 0;
+        margin: 0;
+    }
+
+    .main-12 .content .photo+p {
+        padding: 20px 0 10px;
+    }
+
+    .main-13 {
+        padding: 30px 0;
+    }
+
+    .main-13 .container {
+        width: 95vw;
+        margin: 0 auto;
+    }
+
+    .main-14 {
+        height: 539px;
+        background-attachment: scroll;
+        background-size: 100%;
+        background: url('../img/phone-19.jpg') no-repeat center top;
+    }
+
+    .main-15 {
+        padding: 30px 0 0 0;
+    }
+
+    .main-15 .container {
+        width: 97vw;
+        margin: 0 auto;
+    }
+
+    .main-15 .item {
+        width: 30%;
+        margin: 10px auto;
+    }
+
+
+
+    /*联系我们*/
+    .main-16 {
+        height: 250px;
+        background-attachment: scroll;
+        background-position: 0;
+    }
+
+    .main-17 .title {
+        padding: 30px 0 20px 0;
+        font-size: 25px;
+    }
+
+    .main-17 .title p:nth-child(2) {
+        width: 20px;
+        padding: 2px 10px;
+        margin: 10px auto;
+    }
+
+    .main-17 .title p:nth-child(2) {
+        font-size: 18px;
+    }
+
+    .main-17,
+    .main-18 {
+        display: none;
+    }
+
+    .main-18 {
+        background: url(../img/photo-86.jpg) no-repeat center top;
+        background-size: cover;
+        height: 300px;
+    }
+
+    .main-18 .photo>img {
+        display: none;
+    }
+
+    .main-19 .title {
+        padding: 30px 0 20px 0;
+        font-size: 25px;
+    }
+
+    .main-19 .title p:nth-child(2) {
+        width: 20px;
+        margin: 10px auto;
+        padding: 2px 10px;
+    }
+
+    .main-19 .title p:nth-child(3) {
+        font-size: 18px;
+    }
+
+    .main-19 .item {
+        width: 30%;
+        margin: 10px auto;
+    }
+
+    .main-19 .item>p {
+        padding: 5px 8px;
+        width: 120px;
+        font-size: 16px;
+    }
+
+    .main-19 .icon {
+        padding: 10px 20px;
+    }
+
+    .main-19 p+.icon {
+        padding: 15px 20px 5px;
+    }
+
+    .main-19 {
+        padding: 0 0 32px 0;
+    }
+
+    .main-20 .title {
+        padding: 30px 0 20px 0;
+        font-size: 25px;
+    }
+
+    .main-20 .title p:nth-child(2) {
+        width: 15px;
+        margin: 10px auto;
+        padding: 2px 13px;
+    }
+
+    .main-20 .title p:nth-child(3) {
+        font-size: 18px;
+    }
+
+    .main-20 .item {
+        width: 30%;
+        margin: 10px auto;
+    }
+
+    .main-20 .item>p {
+        padding: 5px 10px;
+        font-size: 16px;
+        width: 100px;
+    }
+
+    .main-20 p+.icon {
+        padding: 10px 20px 5px;
+    }
+
+    .main-20 .icon {
+        padding: 10px 20px;
+    }
+
+    .main-20 {
+        padding-bottom: 20px;
+    }
+
+    .main-21 {
+        padding-top: 30px;
+    }
+
+    .main-21 .input_c {
+        padding: 15px 0 30px;
+    }
+
+
+
+    /*加入我们*/
+    .main-22 {
+        height: 250px;
+        background-attachment: scroll;
+        background-position: 0;
+    }
+
+    .main-23 .title {
+        padding: 30px 0 20px 0;
+        font-size: 25px;
+    }
+
+    .main-23 .title p:nth-child(2) {
+        width: 10px;
+        padding: 2px 20px;
+        margin: 10px auto;
+    }
+
+    .main-23 .title p:nth-child(3) {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .main-25 {
+        position: static;
+    }
+
+    .main-25 .content {
+        padding: 20px 0;
+    }
+
+    .main-25 .content .left {
+        font-size: 70px;
+    }
+
+    .main-25 .content .item p:nth-child(1) {
+        font-size: 20px;
+    }
+
+    .main-25 .content .item p:nth-child(2) {
+        font-size: 20px;
+    }
+
+    .main-26 .title {
+        padding: 30px 0 20px 0;
+        font-size: 25px;
+    }
+
+    .main-26 .title p:nth-child(2) {
+        width: 10px;
+        padding: 2px 13px;
+        margin: 10px auto;
+    }
+
+    .main-26 .content .item>p {
+        font-size: 16px;
+        padding: 30px 0 20px;
+    }
+
+    .main-26 .content .item .photo {
+        width: 60px;
+        height: 60px;
+        left: 60px;
+    }
+
+    .main-26 .content .item {
+        padding: 0 5px;
+        width: 22%;
+        margin: 0 0 20px 0;
+        height: 100px;
+    }
+
+    .main-26 {
+        padding: 0 0 30px 0;
+    }
+
+
+
+    /*新闻咨询*/
+    .main-27 {
+        height: 250px;
+        background-attachment: scroll;
+    }
+
+    .main-28 .title p:nth-child(1) {
+        font-size: 25px;
+        padding: 30px 0 10px;
+    }
+
+    .main-28 .title p:nth-child(2) {
+        width: 10px;
+    }
+
+    .main-28 .title {
+        padding: 0 0 20px 0;
+    }
+
+    .main-28 .content .list .photo {
+        width: 300px;
+        height: 190px;
+        overflow: hidden;
+    }
+
+    .main-28 .content .list .text-2 {
+        padding: 0 0 0 8px;
+        width: 59%;
+    }
+
+    .main-28 .content {
+        width: 97vw;
+        margin: 0 auto;
+    }
+
+    .main-28 .content .list .text-2 p:nth-child(1) {
+        font-size: 20px;
+    }
+
+    .main-29 .content {
+        width: 97vw;
+        margin: 0 auto;
+        padding: 0 0 30px 0;
+    }
+
+    .main-29 .content .picture .photo {
+        height: 300px;
+    }
+
+
+    .main-30 {
+        background-size: 100%;
+        height: 250px;
+        background-attachment: scroll;
+    }
+
+    .main-31 .content {
+        padding: 15px 0 10px 0;
+    }
+
+    .main-31 .content .list {
+        padding: 53px 51px 0 35px;
+        margin: 10px auto;
+        height: 175px;
+        width: 19%;
+    }
+
+    .main-31 .content .text-3 {
+        width: 90%;
+        padding: 4px 12px 13px 12px;
+        /*opacity: 1;*/
+        height: 211px;
+    }
+
+    .main-31 .list p:nth-child(1) {
+        font-size: 18px;
+    }
+
+    .main-31 .list p:nth-child(2) {
+        width: 100%;
+        margin: 5px auto;
+    }
+
+
+    .main-32 {
+        height: 250px;
+        background-size: 100%;
+        background-position: 0 0;
+        background-attachment: scroll;
+    }
+
+    .main-33 .title {
+        text-align: center;
+        padding: 30px 0 15px 0;
+    }
+
+    .main-32 .chunk {
+        margin: 50px 0 !important;
+    }
+
+    .main-33 .w .title p:nth-child(1) {
+        font-size: 22px;
+        padding: 0;
+    }
+
+    .main-33 .title p:nth-child(2) {
+        width: 15px;
+        padding: 2px 10px;
+        margin: 10px auto;
+    }
+
+    .main-33 .content {
+        padding: 0 0 20px 0;
+        justify-content: space-evenly;
+        margin: 0 0 0 -45px;
+    }
+
+    .main-33 .content .list {
+        width: 20%;
+    }
+
+    .main-33 .content .list .photo {
+        width: 200px;
+        height: 121px;
+        overflow: hidden;
+    }
+
+    .main-33 .content .text-4 {
+        font-size: 18px;
+        padding: 23px 13px 20px;
+        opacity: 1;
+        height: 77px;
+        display: none;
+    }
+
+    .main-33 .text-4 p:nth-child(2) {
+        font-size: 16px;
+    }
+
+    .main-33 .text-4 p:nth-child(1) {
+        font-size: 14px;
+    }
+
+    .main-33 .text-4 p:nth-child(3) {
+        width: 50px;
+        margin: 5px 0 0 45px;
+    }
+
+
+    .main-34 .title {
+        font-size: 22px;
+        padding: 30px 0 15px 0;
+    }
+
+    .main-34 .title p:nth-child(1) {
+        padding: 0;
+    }
+
+    .main-34 .title p:nth-child(2) {
+        width: 40px;
+        padding: 2px 0;
+        margin: 10px auto;
+    }
+
+    .main-34 .content {
+        flex-wrap: wrap;
+    }
+
+    .main-34 .content .list>p:nth-child(2) {
+        font-size: 22px;
+    }
+
+    .main-34 .content .bottom p:nth-child(2) {
+        font-size: 25px;
+    }
+
+    .main-34 .content .list {
+        margin: 10px auto;
+    }
+
+
+    .main-35 {
+        height: 250px;
+        background-position: 0 0;
+        background-attachment: scroll;
+    }
+
+
+    .main-36 {
+        padding: 20px 0 39px 0;
+    }
+
+    .main-36 ul {
+        display: none;
+    }
+
+
+
+
+
+    .main-37 {
+        padding: 30px 0;
+    }
+
+
+    .main-38 .title {
+        padding: 30px 0 15px 0;
+    }
+
+    .main-38 {
+        font-size: 22px;
+    }
+
+    .main-38 .title p:nth-child(2) {
+        padding: 2px 0;
+        width: 50px;
+        margin: 10px auto;
+    }
+
+    .main-38 .content {
+        padding: 0 0 20px 0;
+    }
+
+    .main-39 {
+        height: 250px;
+        background-size: 100%;
+        background-position: 0 0;
+        background-attachment: scroll;
+    }
+
+    .main-39 .chunk {
+        margin: 50px 0 !important;
+    }
+
+    .main-40 .content {
+        padding: 30px 0;
+    }
+
+    .main-40 .content .list {
+        width: 24%;
+        margin: 0 0 10px 6px;
+    }
+
+    .main-40 .content .list p:nth-child(2) {
+        padding: 0 0 20px 34px;
+    }
+
+    .main-41 {
+        height: 250px;
+        background-position: 0 0;
+        background-size: 100%;
+        background-attachment: scroll;
+    }
+
+    .main-42 {
+        height: 250px;
+        background-position: 0 0;
+        background-size: 100%;
+        background-attachment: scroll;
+    }
+
+    .main-43 .content {
+        padding: 30px 0;
+        /* justify-content: space-around; */
+    }
+
+    .main-43 .content .list p:nth-child(2) {
+        padding: 0 10px 20px;
+        font-size: 16px;
+        color: #666;
+        width: auto;
+    }
+
+    .main-43 .content .list {
+        width: 23%;
+        margin: 10px 0 10px 11px;
+        height: 220px;
+    }
+
+    .main-44 .content {
+        flex-wrap: wrap;
+        padding: 30px 0;
+    }
+
+    .main-44 .list {
+        margin: 10px auto;
+    }
+
+    .main-45 {
+        height: 320px;
+        background-attachment: scroll;
+    }
+
+    .main-46 .content {
+        padding: 30px 0;
+    }
+
+    .main-46 .content .list p:nth-child(2) {
+        padding: 0 10px 20px;
+        font-size: 16px;
+        width: auto;
+    }
+
+    .main-46 .content .list {
+        width: 24%;
+        height: 200px;
+        margin: 0 0 10px 4px;
+    }
+
+    .main-47 {
+        height: 190px;
+        background-attachment: scroll;
+        background-size: 100%;
+    }
+
+    .main-48 .content {
+        padding: 30px 0;
+        justify-content: space-around;
+    }
+
+    .main-48 .content .list p:nth-child(2) {
+        padding: 0 5px 20px 22px;
+        font-size: 16px;
+        width: auto;
+    }
+
+    .main-48 .content .list {
+        width: 24%;
+        height: 300px;
+    }
+
+    .main-49 .title {
+        padding: 30px 0 15px 0;
+    }
+
+    .main-49 .title p:nth-child(1) {
+        font-size: 22px;
+    }
+
+    .main-49 .title p:nth-child(2) {
+        width: 40px;
+        padding: 2px 0;
+        margin: 10px auto;
+    }
+
+    .main-49 .title p:nth-child(3) {
+        font-size: 18px;
+    }
+
+    .main-49 .top {
+        position: absolute;
+        top: -87px;
+        left: 10px;
+        font-size: 16px;
+    }
+
+    .main-49 .bottom img {
+        max-width: 100%;
+    }
+
+    .main-49 .top li {
+        padding: 3px 0;
+    }
+
+    .main-49 .top li img {
+        max-width: 100%;
+        width: 19px;
+        height: 22px;
+    }
+
+    .main-50 .title {
+        padding: 30px 0 15px 0;
+    }
+
+    .main-50 .title p:nth-child(1) {
+        font-size: 22px;
+    }
+
+    .main-50 .title p:nth-child(2) {
+        width: 40px;
+        padding: 2px 0;
+        margin: 10px auto;
+    }
+
+    .main-52 .content .list p:nth-child(2) {
+        width: auto;
+    }
+
+    .main-52 .content .list {
+        margin: 0 0 15px 14px;
+        width: 31%;
+        height: 210px;
+    }
+
+    .main-53 .topa {
+        top: -83px;
+        left: 13px;
+        font-size: 16px;
+    }
+
+    .main-53 .topa li img {
+        width: 19px;
+        height: 22px;
+    }
+
+    .main-56 .content .list p:nth-child(2) {
+        width: auto;
+    }
+
+    .main-56 .content .list {
+        width: 31%;
+        margin: 0 0 14px 13px;
+        height: 210px;
+    }
+
+
+    .main-69 {
+        height: 345px;
+    }
+
+    /*底部*/
+    .footer-top>ul {
+        padding: 0 20px;
+    }
+
+    .footer-top {
+        padding: 0 0 30px 0;
+    }
+
+    .footer-top .media {
+        padding: 0 0 0 29px;
+    }
+
+    .footer-top>ul>li:first-child a {
+        text-align: left;
+        padding: 30px 0 22px 0;
+    }
+
+
+    .shaow .photo {
+        width: 70vw;
+    }
+
+    .shaow_a {
+        left: 15%;
+    }
+
+    .guanbi {
+        top: -40px;
+        right: 43px;
+    }
+
+    .insert {
+        display: none;
+    }
+
+    .carousel_a {
+        display: block;
+        text-align: center;
+    }
+
+
+    .carousel_a .swiper-wrapper {
+        height: 230px;
+    }
+
+    .carousel_a .swiper-container {
+        width: 75vw;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: 29% !important;
+    }
+
+
+    .ooo {
+        z-index: 9999 !important;
+        background: #fff;
+    }
+
+    .ooo li {
+        background: #fff;
+    }
+
+    .header-right {
+        z-index: 99999;
+    }
+
+    .header-right>ul>li {
+        margin: 0;
+    }
+
+    .second-level {
+        width: 100% !important;
+    }
+
+
+    .header-right .ooo .second-level {
+        left: 0 !important;
+        height: 212px;
+        top: 46px;
+        padding: 10px 0 0 0;
+    }
+
+    .header-right .ooo li:hover .second-level {
+        height: 215px;
+    }
+
+    .header-right .ooo .t_a:hover .second-level {
+        height: 267px;
+    }
+
+    .header-right .ooo .t_b:hover .second-level {
+        height: 271px !important;
+    }
+
+    .t_b .second-level {
+        height: 260px !important;
+    }
+
+    .index .carousel_a .swiper-slide p:nth-child(4) a {
+        background: #3979af;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 6px;
+    }
+
+    .index .carousel_a .swiper-slide p:nth-child(4) {
+        margin: 10px 0 0 0;
+    }
+
+    .footer .media li:nth-child(2) ul li:first-child a {
+        display: none;
+    }
+
+    .footer .media li:nth-child(2) ul li:first-child .photo {
+        opacity: 1;
+    }
+
+    .new_a {
+        display: block;
+    }
+
+    .shu .counter {
+        font-size: 25px;
+    }
+
+    .chunk {
+        margin: 70px 0 !important;
+        padding: 16px 120px 16px 25px !important;
+    }
+
+    .chunk p:nth-child(1) {
+        font-size: 20px !important;
+    }
+
+    .main-31 .content .a1 {
+        display: none;
+    }
+
+    .main-31 .content .text-3 {
+        opacity: 1;
+        padding: 110px 20px 0;
+        color: #000;
+    }
+
+    .main-31 .content .photo {
+        width: 60px;
+    }
+
+    .main-31 .content .list {
+        padding: 17px 51px 0 35px;
+        height: 500px;
+    }
+
+    .main-34 .content .list .photo {
+        width: 224px;
+    }
+
+    .main-51 {
+        background-attachment: scroll;
+    }
+
+    .main-55 {
+        background-attachment: scroll;
+        background-size: 100%;
+        background-position: 0;
+    }
+
+    .main-24 {
+        background-attachment: scroll;
+    }
+
+    .main-19 .nn+.icon {
+        height: 92px;
+    }
+
+    .main-15 .item .nn+.icon {
+        height: 90px;
+    }
+
+    .s {
+        display: none;
+    }
+
+    .list,
+    .item {
+        box-shadow: 0 0 0 0 !important;
+    }
+
+    .main-70,
+    .main-67 {
+        padding: 0;
+    }
+
+    .main-71 .w {
+        justify-content: flex-start;
+    }
+
+    .main-71 .list {
+        width: 30%;
+        height: 180px;
+        margin: 0 0 20px 19px;
+    }
+
+    .main-60 .list {
+        height: 320px;
+    }
+
+    .main-60 .list p:nth-child(2) {
+        padding: 0 15px 25px;
+    }
+
+}

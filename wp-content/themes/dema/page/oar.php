@@ -13,7 +13,7 @@
             <p>海运代理</p>
         </div>
     </div>
-    <?php show_post(293);?>>
+    <?php show_post(293);?>
     <div class="main-49 w">
         <div class="title">
             <p>优势航线</p>
